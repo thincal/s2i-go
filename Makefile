@@ -1,5 +1,5 @@
 
-IMAGE_NAME = registry.ceyes.os:5000/openshift/s2i-golang-ceyes:1.4.3
+IMAGE_NAME = s2i-golang:1.4.3
 
 build:
 	docker build -t $(IMAGE_NAME) .
