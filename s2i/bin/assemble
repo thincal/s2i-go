@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+echo "---> Installing application source"
+# git clone source is under /tmp/src
+# current folder is /go/src/app
+cp -Rf /tmp/src/. ./
+
+echo "---> Building your go application from source"
+go-wrapper download
+go-wrapper install

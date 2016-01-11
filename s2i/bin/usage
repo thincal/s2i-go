@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat <<EOF
+This is a S2I golang base image.
+EOF
